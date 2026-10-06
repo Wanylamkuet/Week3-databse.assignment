@@ -1,1 +1,19 @@
+-- Question 1
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    fullName VARCHAR(100),
+    age INT
+);
+-- Question 2
+INSERT INTO student (id, fullName, age) 
+VALUES 
+    (1, 'Joka Jok', 19),
+    (2, 'Joka Owiny', 21),
+    (3, 'Joka Omollo', 18),
+    (4, 'Luo Basuba', 24),
+    (5, 'Pabungu', 22);
+-- Question 3
+UPDATE student 
+SET age = 20 
+WHERE id = 2;
 
